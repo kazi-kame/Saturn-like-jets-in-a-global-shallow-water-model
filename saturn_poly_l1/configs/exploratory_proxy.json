@@ -1,0 +1,51 @@
+{
+  "config_id": "saturn_exploratory_proxy",
+  "physical_constants": {
+    "equatorial_radius_m": 60268000.0,
+    "polar_radius_m": 54364000.0,
+    "rotation_period_s": 38361.6,
+    "gravitational_acceleration_m_s2": 11.19
+  },
+  "numerics": {
+    "nlon": 128,
+    "ncolat": 64,
+    "dealias": 1.5,
+    "time_step_s": 60.0,
+    "mean_layer_depth_m": 20000.0,
+    "hyperviscosity_m4_s": 3.5e+17,
+    "run_days": 0.25,
+    "save_every_steps": 30,
+    "checkpoint_every_steps": 120,
+    "max_mode": 20
+  },
+  "jets": {
+    "north": {
+      "latitude_planetographic_deg": 78.5,
+      "peak_eastward_m_s": 100.0,
+      "fwhm_planetographic_deg": 3.0
+    },
+    "south": {
+      "latitude_planetographic_deg": -60.5,
+      "peak_eastward_m_s": 116.0,
+      "fwhm_planetographic_deg": 2.8
+    }
+  },
+  "forcing": {
+    "acceleration_scale_m_s2": 1e-08,
+    "mode_min": 1,
+    "mode_max": 18,
+    "correlation_time_s": 86400.0,
+    "forcing_fwhm_planetographic_deg": 9.0,
+    "rng_seed": 12345,
+    "vortex_center_planetographic_deg": -55.0,
+    "vortex_center_lon_deg": 45.0,
+    "vortex_sigma_deg": 4.0,
+    "vortex_acceleration_scale_m_s2": 1e-07,
+    "vortex_begin_day": 0.1,
+    "vortex_duration_days": 1.0
+  },
+  "diagnostics": {
+    "mode_detection_min_height_amplitude_m": 0.01,
+    "min_peak_to_second_ratio": 2.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "purpose": "nonrotating_rest_numerical_reference_not_saturn",
+  "radius_m": 1.0,
+  "effective_gravity_m_s2": 1.0,
+  "depth_m": 1.0,
+  "rotation_rad_s": 0.0,
+  "modes": [
+    0,
+    1,
+    2
+  ],
+  "truncations": [
+    4,
+    8,
+    12
+  ],
+  "quadrature_factors": [
+    2,
+    3
+  ],
+  "relative_tolerance": 1e-10
+}
