@@ -1,0 +1,13 @@
+name: saturn-shallow-water
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - dedalus=3.0.5
+  - numpy
+  - scipy
+  - matplotlib
+  - xarray
+  - h5py
+  - mpi4py
+  - pytest
