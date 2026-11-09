@@ -3,6 +3,8 @@
 Global shallow-water simulation and linear stability analysis of prescribed
 Saturn-like jets.
 
+Based on A paper by Joseph Galewsky, Richard K. Scott and Lorenzo M Polvani. [Read](galewsky_2004.pdf)
+
 ## Code
 
 - `saturn_poly/`: spherical equations, balanced jets, spectral operators,
